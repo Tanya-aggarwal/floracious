@@ -1,0 +1,69 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.nav{
+    font-family: 'Sacramento', cursive;
+}
+.abouttitle{
+    font-family: 'Sacramento';
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+ }
+ .aboutpara{
+    font-family:'Trocchi';
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+   
+
+ }
+ .sidepic{
+    width:60%; 
+                
+    margin: auto;
+    height: 230px;
+    margin: 50px 30px 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+
+ .contacthead{
+   font-family: 'Sacramento';
+   color: white;
+   text-align: center;
+   font-size: 40px;
+   margin: 20px auto;
+ }
+ .contactus{
+   font-family: 'Montserrat';
+   color: white;
+   text-align: center;
+ }
+
+ .cont{
+   text-align: center;
+}
+.help{
+          
+   font-family: 'Montserrat';
+   color: white;
+   text-align: center;
+   margin: 20px auto ;
+   text-align: center;
+}
+
+i{
+   display: inline;
+   color: white;
+   
+   
+
+}
+.social li{
+   display: inline-block;
+   list-style: none;
+   text-align: center;
+   padding: 15px;
+}
