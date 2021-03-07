@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col'
 function Aboutus()
 {
     return(
-        <Container>
+        <Container style={{marginTop:'30px'}}>
          <Row>
     <Col md={6}>
     <p className="abouttitle">

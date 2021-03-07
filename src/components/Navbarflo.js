@@ -1,6 +1,9 @@
 import React from "react"
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import Contactus from './Contactus'
+import { Link } from 'react-router-dom';
+
 
 function Navbarflo(){
 return(
@@ -21,7 +24,7 @@ return(
     <Navbar.Collapse id="responsive-navbar-nav">
 
     <Nav className="ml-auto">
-      <Nav.Link href="#" style={{color:'white'}}>Floral Boxes</Nav.Link>
+      <Link to="/Contactus" style={{color:'white'}}>Floral Boxes</Link>
       <Nav.Link href="#" style={{color:'white'}}>Gift Hampers</Nav.Link>
       <Nav.Link href="#" style={{color:'white'}}>Decors</Nav.Link>
       <Nav.Link href="#" style={{color:'white'}}>Cake Boxes</Nav.Link>
